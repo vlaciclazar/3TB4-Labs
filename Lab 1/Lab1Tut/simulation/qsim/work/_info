@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/17.1/Lab1Tut/simulation/qsim
+vLab1Tut
+Z1 !s110 1705960785
+!i10b 1
+!s100 =mJPKPLVVg6MMBF7hhQV93
+I6:D]44Yf9g;[?kAVc3a@T2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1705960783
+Z3 8Lab1Tut.vo
+Z4 FLab1Tut.vo
+Z5 L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1705960785.000000
+Z8 !s107 Lab1Tut.vo|
+Z9 !s90 -work|work|Lab1Tut.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@lab1@tut
+vLab1Tut_vlg_vec_tst
+R1
+!i10b 1
+!s100 @1_WJYJ^jHAO8mz[5U]Bg0
+IR^3md219OX0ah;cFDm4dP0
+R2
+R0
+w1705960780
+8Lab1tutorial.vwf.vt
+FLab1tutorial.vwf.vt
+Z12 L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Lab1tutorial.vwf.vt|
+!s90 -work|work|Lab1tutorial.vwf.vt|
+!i113 1
+R10
+R11
+n@lab1@tut_vlg_vec_tst
+vmajority3
+Z13 !s110 1705961759
+!i10b 1
+!s100 Y64oYdR=80G_YfVQ>0WCL1
+IFf8USn78K]XaIK4RcJb>=1
+R2
+R0
+w1705961758
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z14 !s108 1705961759.000000
+R8
+R9
+!i113 1
+R10
+R11
+vmajority3_vlg_vec_tst
+R13
+!i10b 1
+!s100 91CHGkKYJ;6jMNYI0A6UO1
+I7`MQggiNh_2g2YWL:84LH1
+R2
+R0
+w1705961756
+8Lab1tutorial2.vwf.vt
+FLab1tutorial2.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R14
+!s107 Lab1tutorial2.vwf.vt|
+!s90 -work|work|Lab1tutorial2.vwf.vt|
+!i113 1
+R10
+R11
