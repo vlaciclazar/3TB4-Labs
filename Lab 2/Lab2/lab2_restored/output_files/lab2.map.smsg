@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at random.v(11): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA/17.1/Lab2/lab2_restored/random.v Line: 11
+Warning (10268): Verilog HDL information at lab2.v(154): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA/17.1/Lab2/lab2_restored/lab2.v Line: 154
