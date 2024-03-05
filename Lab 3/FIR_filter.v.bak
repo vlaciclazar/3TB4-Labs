@@ -1,0 +1,50 @@
+module FIR_filter(input clk, input [15:0] input_sample , output [15:0] output_sample);
+
+
+	wire coeff[15:0];
+	wire out[15:0];
+	reg input_sample_shifted[15:0];
+	
+	
+	assign coeff [0] =     -3778;
+	assign coeff [1] =        -2;
+	assign coeff [2] =      2889;
+	assign coeff [3] =        -4;
+	assign coeff [4] =     -3571;
+	assign coeff [5] =        -4;
+	assign coeff [6] =      4044;
+	assign coeff [7] =        -2;
+	assign coeff [8] =     28564;
+	assign coeff [9] =        -2;
+	assign coeff [10] =      4044;
+	assign coeff [11] =        -4;
+	assign coeff [12] =     -3571;
+	assign coeff [13] =        -4;
+	assign coeff [14] =      2889;
+	assign coeff [15] =        -2;
+	
+	assign output_sample = out[0] +out[1] +out[2] +out[3] +out[4] +out[5] + out[6] +out[7] +out[8] 
+	                       +out[9] +out[10] +out[11] +out[12] +out[13] +out[14] +out[15]; 
+								  
+	
+	genvar i
+	generate
+	
+	for (i=0; i<17;i=i+1) begin:
+		multiply multiplier(.dataa(input_sample[i]),.datab(coeff[i]),.result(out[i]));
+		
+	end
+	endgenerate
+	
+	
+
+	always@(posedge clk) begin
+		input_sample_shifted[0] <= input_sample;
+		genvar j
+		for(j=0;j<14;j=j+1) begin:
+			input_sample_shifted[j+1] <= input_sample_shifted[j];
+
+		end
+	end
+	
+	
